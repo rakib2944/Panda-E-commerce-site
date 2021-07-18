@@ -16,10 +16,10 @@
     <!-- Start Header -->
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="./images/logo.png" alt="" class="d-inline-block align-text-top">
                 </a>
 
@@ -34,19 +34,19 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shose</a>
+                            <a class="nav-link" href="#shose">Shose</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
 
                     </ul>
@@ -199,7 +199,7 @@
 
         <!-- Card Section -->
 
-        <section class="container my-5">
+        <section class="container my-5" id="shose">
             <h2>Shose</h2>
             <div class="row row-cols-1 row-cols-md-12 g-4">
                 <div class="col col-md-6 col-lg-4">
@@ -262,7 +262,7 @@
 
         <!-- Back-Pack Section -->
 
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>BackPack</h2>
             <div class="row row-cols-1 row-cols-md-12 g-4">
                 <div class="col col-md-6 col-lg-4">
@@ -324,16 +324,34 @@
                 </div>
             </div>
 
-
         </section>
 
+
+        <!-- Get in Touch -->
+
+        <section style="height: 300px;"
+            class="container my-5 d-flex justify-content-center align-items-center bg-info rounded-3" id="subscribe">
+
+            <div>
+
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+
+                <input type="text" placeholder="Your Email">
+                <br><br>
+                <buton class="btn btn-warning">SUBMIT</buton>
+
+            </div>
+
+        </section>
 
     </main>
 
 
     <!-- Start Footer -->
-    <footer>
+    <footer class="container text-center">
 
+        <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
 
     </footer>
 
